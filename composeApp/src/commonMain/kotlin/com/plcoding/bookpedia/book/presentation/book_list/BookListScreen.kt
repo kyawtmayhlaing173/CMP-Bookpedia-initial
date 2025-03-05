@@ -80,7 +80,7 @@ fun BookListScreen(
         searchResultsListState.animateScrollToItem(0)
     }
 
-    LaunchedEffect(pagerState) {
+    LaunchedEffect(pagerState.currentPage) {
         onAction(BookListAction.OnTabSelected(pagerState.currentPage))
     }
 
