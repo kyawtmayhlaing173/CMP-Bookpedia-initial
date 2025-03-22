@@ -115,6 +115,7 @@ android {
 
 dependencies {
     implementation(libs.androidx.ui.tooling.preview.android)
+    implementation(libs.androidx.foundation.layout.android)
     debugImplementation(compose.uiTooling)
 }
 
